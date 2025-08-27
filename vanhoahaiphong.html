@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Văn hóa Hải Phòng - Thành phố cảng</title>
+  <style>
+    /* Reset cơ bản */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f9faff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0077b6, #023e8a);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.25rem;
+      font-style: italic;
+      opacity: 0.85;
+    }
+
+    nav {
+      background-color: #023e8a;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      font-weight: 600;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #0077b6;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px 80px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+    section h2 {
+      color: #0077b6;
+      font-size: 2rem;
+      border-bottom: 3px solid #0077b6;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    section p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    /* Ảnh trang trí */
+    .image-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .image-container img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Danh sách nét đặc sắc */
+    ul.features {
+      list-style-type: disc;
+      margin-left: 20px;
+      font-size: 1.1rem;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 1rem;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Văn hóa Hải Phòng</h1>
+    <p>Khám phá nét độc đáo, truyền thống và hiện đại của thành phố cảng</p>
+  </header>
+
+  <nav>
+    <a href="#amthuc">Ẩm thực Hải Phòng</a>
+    <a href="#langnghe">Làng nghề truyền thống</a>
+    <a href="#lehoi">Phong tục & lễ hội</a>
+    <a href="#diadiem">Địa điểm văn hóa</a>
+  </nav>
+
+  <main>
+    <section id="amthuc">
+      <h2>Ẩm thực Hải Phòng</h2>
+      <div class="image-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS32YkKjAvOQMiVCy4GxEURJAqzCrr7hLqSiQ&s" alt="Bánh đa cua Hải Phòng" />
+      </div>
+      <p>
+        Hải Phòng nổi tiếng với ẩm thực đa dạng, đặc biệt là các món ăn mang đậm hương vị biển. Một số món ăn tiêu biểu:
+      </p>
+      <ul class="features">
+        <li><strong>Bánh đa cua:</strong> Món bánh đa nổi tiếng với nước dùng đậm đà, cua tươi và các loại rau thơm.</li>
+        <li><strong>Nem cua bể:</strong> Món nem giòn rụm, nhân cua thơm ngậy, là đặc sản không thể bỏ qua.</li>
+        <li><strong>Bánh mì cay:</strong> Bánh mì được tẩm ướp gia vị cay đặc trưng, ăn kèm với pate và đồ chua.</li>
+        <li><strong>Hải sản tươi sống:</strong> Các món từ tôm, cua, cá, mực được chế biến đa dạng và hấp dẫn.</li>
+      </ul>
+    </section>
+
+    <section id="langnghe">
+      <h2>Làng nghề truyền thống</h2>
+      <div class="image-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Traditional_village_in_Vietnam.jpg" alt="Làng nghề truyền thống Hải Phòng" />
+      </div>
+      <p>
+        Hải Phòng có nhiều làng nghề truyền thống nổi tiếng, góp phần duy trì và phát huy văn hóa đặc trưng của địa phương:
+      </p>
+      <ul class="features">
+        <li><strong>Làng nghề mộc Tam Bạc:</strong> Nổi tiếng với các sản phẩm mộc tinh xảo, từ đồ nội thất đến các vật dụng trang trí.</li>
+        <li><strong>Làng nghề làm đồ đồng:</strong> Sản xuất các sản phẩm đồng chất lượng cao với kỹ thuật truyền thống.</li>
+        <li><strong>Làng nghề đan lát:</strong> Sản xuất các sản phẩm từ tre nứa như giỏ, mây, thảm, dùng trong đời sống hàng ngày.</li>
+      </ul>
+    </section>
+
+    <section id="lehoi">
+      <h2>Phong tục & lễ hội</h2>
+      <div class="image-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Doson_Festival_Vietnam_2019.jpg" alt="Lễ hội Đồ Sơn" />
+      </div>
+      <p>
+        Lễ hội và phong tục truyền thống của Hải Phòng phản ánh đời sống văn hóa phong phú của người dân địa phương:
+      </p>
+      <ul class="features">
+        <li><strong>Lễ hội Đồ Sơn:</strong> Lễ hội lớn hàng năm với các hoạt động văn hóa, thể thao và tín ngưỡng truyền thống.</li>
+        <li><strong>Lễ hội cầu ngư:</strong> Tôn vinh nghề đánh cá, cầu cho một mùa đánh bắt bội thu, an lành.</li>
+        <li><strong>Phong tục cưới hỏi:</strong> Giữ gìn nhiều nghi thức truyền thống thể hiện sự tôn trọng gia đình và tổ tiên.</li>
+      </ul>
+    </section>
+
+    <section id="diadiem">
+      <h2>Địa điểm văn hóa nổi bật</h2>
+      <div class="image-container">
+        <img src="data:image/jpeg;base64,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" alt="Một góc Hải Phòng" />
+      </div>
+      <p>
+        Hải Phòng có nhiều địa điểm văn hóa, lịch sử và du lịch thu hút du khách:
+      </p>
+      <ul class="features">
+        <li><strong>Nhà hát lớn Hải Phòng:</strong> Trung tâm biểu diễn nghệ thuật với kiến trúc độc đáo.</li>
+        <li><strong>Khu di tích Núi Vọng Cảnh:</strong> Nơi lưu giữ nhiều dấu ấn lịch sử và cảnh quan thiên nhiên đẹp.</li>
+        <li><strong>Bảo tàng Hải Phòng:</strong> Giới thiệu lịch sử, văn hóa và phát triển của thành phố cảng.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Văn hóa Hải Phòng | Thiết kế bởi ChatGPT
+  </footer>
+</body>
+</html>
